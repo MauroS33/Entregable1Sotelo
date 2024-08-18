@@ -3,11 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Js -->
     <script defer src="./js/main.js"></script>
-    <title>Documento</title>
+    <title>Club Atletico Becker</title>
 </head>
 <body>
-    <h1>Mauro Sotelo</h1>
+    <h1>El Club Atletico Becker le invita a ser parte de nuestra familia</h1>
+
+    <div id="menu-principal">
+        <h2>Elija una opción:</h2>
+        <button data-opcion="1">Ser jugador</button>
+        <button data-opcion="2">Ser colaborador</button>
+        <button data-opcion="3">Ser esponsor</button>
+        <button data-opcion="4">Ser socio</button>
+        <button data-opcion="5">Salir</button>
+    </div>
+
+    <div id="jugador-form" class="formulario oculto">
+        <h2>Registro Jugadores</h2>
+        <input type="text" id="nombre-jugador" placeholder="Ingrese su nombre">
+        <select id="categoria-jugador">
+            <option value="1">Futbol 11 Masculino</option>
+            <option value="2">Futbol 5 Masculino</option>
+            <option value="3">Futbol 5 Femenino</option>
+            <option value="4">Basketball Masculino</option>
+        </select>
+        <input type="email" id="email-jugador" placeholder="Ingrese su email">
+        <button id="guardar-jugador">Guardar</button>
+    </div>
+
+    <div id="colaborador-form" class="formulario oculto">
+        <h2>Registro Colaboradores</h2>
+        <input type="text" id="nombre-colaborador" placeholder="Ingrese su nombre">
+        <select id="vacante-colaborador">
+            <option value="1">DT Futbol 11 Masculino</option>
+            <option value="2">DT Futbol 5 Masculino</option>
+            <option value="3">DT Futbol 5 Femenino</option>
+            <option value="4">DT Basketball Masculino</option>
+        </select>
+        <input type="email" id="email-colaborador" placeholder="Ingrese su email">
+        <button id="guardar-colaborador">Guardar</button>
+    </div>
+
+    <div id="sponsor-form" class="formulario oculto">
+        <h2>Registro Sponsors</h2>
+        <input type="text" id="nombre-empresa" placeholder="Nombre de la empresa">
+        <select id="zona-sponsor">
+            <option value="1">Remera Zona Pecho</option>
+            <option value="2">Remera Zona Espalda</option>
+            <option value="3">Remera Zona Mangas</option>
+            <option value="4">Short Zona Frontal</option>
+            <option value="5">Short Zona Trasera</option>
+        </select>
+        <input type="email" id="email-sponsor" placeholder="Ingrese su email">
+        <button id="guardar-sponsor">Guardar</button>
+    </div>
+
+    <div id="socio-form" class="formulario oculto">
+        <h2>Registro Social</h2>
+        <input type="text" id="nombre-socio" placeholder="Ingrese su nombre">
+        <select id="membresia-socio">
+            <option value="1">Membresía jugador pago anual (15% off)</option>
+            <option value="2">Social</option>
+            <option value="3">Beca (Casos Previamente Evaluados)</option>
+        </select>
+        <input type="email" id="email-socio" placeholder="Ingrese su email">
+        <button id="guardar-socio">Guardar</button>
+    </div>
+
+    <div id="mensaje" class="oculto">
+        <p id="mensaje-texto"></p>
+    </div>
+
+    <style>
+        .oculto {
+            display: none;
+        }
+    </style>
 </body>
 </html>
