@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const MENSAJE_FIN = "Gracias por colaborar con nosotros, ";
 
-    const jugadores = [];
-    const colaboradores = [];
-    const empresas = [];
+    const jugadores = JSON.parse(localStorage.getItem('jugadores')) || [];
+    const colaboradores = JSON.parse(localStorage.getItem('colaboradores')) || [];
+    const empresas =  JSON.parse(localStorage.getItem('empresas')) ||  [];
 
     const menuPrincipal = document.getElementById('menu-principal');
     const formularios = document.querySelectorAll('.formulario');
@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (esEmailValido(email) && nombre) {
             jugadores.push({ categoria, email, nombre });
+            localStorage.setItem('jugadores', JSON.stringify(jugadores));
             mostrarMensaje("Gracias por querer ser parte de nuestra familia, " + nombre + "!");
         } else {
             mostrarMensaje("Por favor, ingrese un nombre y email válidos.");
@@ -63,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (esEmailValido(email) && nombre) {
             colaboradores.push({ vacante, email, nombre });
+            localStorage.setItem('colaboradores', JSON.stringify(colaboradores));
             mostrarMensaje("Gracias por querer ser parte de nuestra familia, " + nombre + "!");
         } else {
             mostrarMensaje("Por favor, ingrese un nombre y email válidos.");
@@ -76,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (esEmailValido(email) && empresa) {
             empresas.push({ zona, email, empresa });
+            localStorage.setItem('empresas', JSON.stringify(empresas));
             mostrarMensaje("Gracias por querer ser parte de nuestra familia, " + empresa + "!");
         } else {
             mostrarMensaje("Por favor, ingrese un nombre de empresa y email válidos.");
