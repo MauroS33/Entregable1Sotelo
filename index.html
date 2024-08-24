@@ -20,54 +20,106 @@
 
     <div id="jugador-form" class="formulario oculto">
         <h2>Registro Jugadores</h2>
-        <input type="text" id="nombre-jugador" placeholder="Ingrese su nombre">
-        <select id="categoria-jugador">
-            <option value="1">Futbol 11 Masculino</option>
-            <option value="2">Futbol 5 Masculino</option>
-            <option value="3">Futbol 5 Femenino</option>
-            <option value="4">Basketball Masculino</option>
-        </select>
-        <input type="email" id="email-jugador" placeholder="Ingrese su email">
-        <button id="guardar-jugador">Guardar</button>
+        <div id="jugador-paso-1" class="paso">
+            <input type="text" id="nombre-jugador" placeholder="Ingrese su nombre">
+            <button id="continuar-jugador-paso-1">Continuar</button>
+        </div>
+        <div id="jugador-paso-2" class="paso oculto">
+            <select id="categoria-jugador">
+                <option value="1">Futbol 11 Masculino</option>
+                <option value="2">Futbol 5 Masculino</option>
+                <option value="3">Futbol 5 Femenino</option>
+                <option value="4">Basketball Masculino</option>
+            </select>
+            <button id="continuar-jugador-paso-2">Continuar</button>
+        </div>
+        <div id="jugador-paso-3" class="paso oculto">
+            <input type="email" id="email-jugador" placeholder="Ingrese su email">
+            <button id="continuar-jugador-paso-3">Continuar</button>
+        </div>
+        <div id="jugador-confirmar" class="paso oculto">
+            <p id="resumen-jugador"></p>
+            <button id="confirmar-jugador">Confirmar</button>
+            <button id="modificar-jugador">Modificar</button>
+        </div>
     </div>
 
     <div id="colaborador-form" class="formulario oculto">
         <h2>Registro Colaboradores</h2>
-        <input type="text" id="nombre-colaborador" placeholder="Ingrese su nombre">
-        <select id="vacante-colaborador">
-            <option value="1">DT Futbol 11 Masculino</option>
-            <option value="2">DT Futbol 5 Masculino</option>
-            <option value="3">DT Futbol 5 Femenino</option>
-            <option value="4">DT Basketball Masculino</option>
-        </select>
-        <input type="email" id="email-colaborador" placeholder="Ingrese su email">
-        <button id="guardar-colaborador">Guardar</button>
+        <div id="colaborador-paso-1" class="paso">
+            <input type="text" id="nombre-colaborador" placeholder="Ingrese su nombre">
+            <button id="continuar-colaborador-paso-1">Continuar</button>
+        </div>
+        <div id="colaborador-paso-2" class="paso oculto">
+            <select id="vacante-colaborador">
+                <option value="1">DT Futbol 11 Masculino</option>
+                <option value="2">DT Futbol 5 Masculino</option>
+                <option value="3">DT Futbol 5 Femenino</option>
+                <option value="4">DT Basketball Masculino</option>
+            </select>
+            <button id="continuar-colaborador-paso-2">Continuar</button>
+        </div>
+        <div id="colaborador-paso-3" class="paso oculto">
+            <input type="email" id="email-colaborador" placeholder="Ingrese su email">
+            <button id="continuar-colaborador-paso-3">Continuar</button>
+        </div>
+        <div id="colaborador-confirmar" class="paso oculto">
+            <p id="resumen-colaborador"></p>
+            <button id="confirmar-colaborador">Confirmar</button>
+            <button id="modificar-colaborador">Modificar</button>
+        </div>
     </div>
 
     <div id="sponsor-form" class="formulario oculto">
         <h2>Registro Sponsors</h2>
-        <input type="text" id="nombre-empresa" placeholder="Nombre de la empresa">
-        <select id="zona-sponsor">
-            <option value="1">Remera Zona Pecho</option>
-            <option value="2">Remera Zona Espalda</option>
-            <option value="3">Remera Zona Mangas</option>
-            <option value="4">Short Zona Frontal</option>
-            <option value="5">Short Zona Trasera</option>
-        </select>
-        <input type="email" id="email-sponsor" placeholder="Ingrese su email">
-        <button id="guardar-sponsor">Guardar</button>
+        <div id="sponsor-paso-1" class="paso">
+            <input type="text" id="nombre-empresa" placeholder="Nombre de la empresa">
+            <button id="continuar-sponsor-paso-1">Continuar</button>
+        </div>
+        <div id="sponsor-paso-2" class="paso oculto">
+            <select id="zona-sponsor">
+                <option value="1">Remera Zona Pecho</option>
+                <option value="2">Remera Zona Espalda</option>
+                <option value="3">Remera Zona Mangas</option>
+                <option value="4">Short Zona Frontal</option>
+                <option value="5">Short Zona Trasera</option>
+            </select>
+            <button id="continuar-sponsor-paso-2">Continuar</button>
+        </div>
+        <div id="sponsor-paso-3" class="paso oculto">
+            <input type="email" id="email-sponsor" placeholder="Ingrese su email">
+            <button id="continuar-sponsor-paso-3">Continuar</button>
+        </div>
+        <div id="sponsor-confirmar" class="paso oculto">
+            <p id="resumen-sponsor"></p>
+            <button id="confirmar-sponsor">Confirmar</button>
+            <button id="modificar-sponsor">Modificar</button>
+        </div>
     </div>
 
     <div id="socio-form" class="formulario oculto">
         <h2>Registro Social</h2>
-        <input type="text" id="nombre-socio" placeholder="Ingrese su nombre">
-        <select id="membresia-socio">
-            <option value="1">Membresía jugador pago anual (15% off)</option>
-            <option value="2">Social</option>
-            <option value="3">Beca (Casos Previamente Evaluados)</option>
-        </select>
-        <input type="email" id="email-socio" placeholder="Ingrese su email">
-        <button id="guardar-socio">Guardar</button>
+        <div id="socio-paso-1" class="paso">
+            <input type="text" id="nombre-socio" placeholder="Ingrese su nombre">
+            <button id="continuar-socio-paso-1">Continuar</button>
+        </div>
+        <div id="socio-paso-2" class="paso oculto">
+            <select id="membresia-socio">
+                <option value="1">Membresía jugador pago anual (15% off)</option>
+                <option value="2">Social</option>
+                <option value="3">Beca (Casos Previamente Evaluados)</option>
+            </select>
+            <button id="continuar-socio-paso-2">Continuar</button>
+        </div>
+        <div id="socio-paso-3" class="paso oculto">
+            <input type="email" id="email-socio" placeholder="Ingrese su email">
+            <button id="continuar-socio-paso-3">Continuar</button>
+        </div>
+        <div id="socio-confirmar" class="paso oculto">
+            <p id="resumen-socio"></p>
+            <button id="confirmar-socio">Confirmar</button>
+            <button id="modificar-socio">Modificar</button>
+        </div>
     </div>
 
     <div id="mensaje" class="oculto">
