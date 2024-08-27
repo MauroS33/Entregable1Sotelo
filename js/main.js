@@ -142,7 +142,7 @@
     document.getElementById('confirmar-sponsor').addEventListener('click', () => {
         empresas.push(sponsorActual);
         localStorage.setItem('empresas', JSON.stringify(empresas));
-        mostrarMensaje("Gracias por querer ser parte de nuestra familia, " + sponsorActual.empresa + "! Actualmente se estan revisando los sponsors para la temporada 2025 a 2027. Nos pondremos en contacto contigo luego de revisar los postulantes.");
+        mostrarMensaje("Gracias por querer auspiciar a nuestro club, " + sponsorActual.empresa + "! Actualmente se estan revisando los sponsors para la temporada 2025 a 2027. Nos pondremos en contacto contigo luego de revisar los postulantes.");
     });
 
     document.getElementById('modificar-sponsor').addEventListener('click', () => {

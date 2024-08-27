@@ -1,0 +1,18 @@
+[
+    { "dorsal": 11, "nombre": "Lucas", "apellido": "Gonzalez", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "12/20" },
+    { "dorsal": 6, "nombre": "Jorge", "apellido": "Martinez", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "10/18" },
+    { "dorsal": 9, "nombre": "Ezequiel", "apellido": "Rojas", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "13/18" },
+    { "dorsal": 20, "nombre": "Carlos", "apellido": "Santana", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "9/20" },
+    { "dorsal": 3, "nombre": "Gonzalo", "apellido": "Pereira", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 12, "nombre": "Sebastian", "apellido": "Guzman", "vinculo": "Colaborador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "10/10" },
+    { "dorsal": 26, "nombre": "Ariel", "apellido": "Martinez", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "11/20" },
+    { "dorsal": 2, "nombre": "Federico", "apellido": "Ruiz", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "14/18" },
+    { "dorsal": 1, "nombre": "Mariano", "apellido": "Silva", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 18, "nombre": "Marcelo", "apellido": "Castiglia", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "17/18" },
+    { "dorsal": 5, "nombre": "Maximiliano", "apellido": "Bordon", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "14/18" },
+    { "dorsal": 7, "nombre": "Sebastian", "apellido": "Castro", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "16/18" },
+    { "dorsal": 8, "nombre": "Javier", "apellido": "Figueredo", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "15/20" },
+    { "dorsal": 14, "nombre": "Diego", "apellido": "Del Puerto", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "14/18" },
+    { "dorsal": 4, "nombre": "Matute", "apellido": "Casas", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "10/18" },
+    { "dorsal": 10, "nombre": "Daniel", "apellido": "Etcheverry", "vinculo": "Jugador", "categoria": "Futbol 11", "Division": "Masculino", "partidos jugados": "15/16" }
+]

@@ -1,0 +1,11 @@
+
+[
+    { "dorsal": 33, "nombre": "Mauro", "apellido": "Sotelo", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "5/15" },
+    { "dorsal": 3, "nombre": "Pablo", "apellido": "Lopez", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 1, "nombre": "Dylan", "apellido": "Paz", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 5, "nombre": "Gabriel", "apellido": "Pereira", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 4, "nombre": "Esteban", "apellido": "Wurth", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 9, "nombre": "Franco", "apellido": "Gimenez", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "15/18" },
+    { "dorsal": 27, "nombre": "Valentin", "apellido": "Lopez", "vinculo": "Colaborador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "7/15" },
+    { "dorsal": 2, "nombre": "Diego", "apellido": "Herrera", "vinculo": "Jugador", "categoria": "Futbol 5", "Division": "Masculino", "partidos jugados": "14/15" }
+]
